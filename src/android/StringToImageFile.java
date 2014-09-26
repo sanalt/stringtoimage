@@ -67,7 +67,7 @@ public class StringToImageFile extends CordovaPlugin {
     	{
         	intent.putExtra(RingtoneManager.EXTRA_RINGTONE_EXISTING_URI, Uri.parse(notification_uri));
     	}
-    	cordova.setActivityResultCallback(RingtonePicker.this);
+    	cordova.setActivityResultCallback(StringToImageFile.this);
     	cordova.getActivity().startActivityForResult(intent, 5);
                     }
                 };
