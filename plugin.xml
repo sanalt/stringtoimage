@@ -23,7 +23,7 @@
     id="org.apache.cordova.stringtoimagefile"
     version="0.3.8">
 
-    <name>RingtonePicker</name>
+    <name>StringToImageFile</name>
     <description>Cordova base64 string to image file Plugin</description>
     <license>Apache 2.0</license>
     <keywords>cordova,base64,string,image,file</keywords>
